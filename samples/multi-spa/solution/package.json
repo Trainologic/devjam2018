@@ -1,0 +1,15 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "gateway",
+    "ng1-app",
+    "ng5-app"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node cli.js start"
+  }
+}

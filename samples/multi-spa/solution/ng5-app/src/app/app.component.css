@@ -1,0 +1,9 @@
+.content .input {
+  margin-bottom: 1em;
+}
+
+.content .input input {
+  padding: 0.35em;
+  width: 20em;
+}
+
