@@ -1,0 +1,16 @@
+{
+  "name": "demo-typescript-app",
+  "version": "1.0.0",
+  "description": "Typescript Demo",
+  "scripts": {
+    "tsc": "tsc",
+    "live": "npm run tsc && http-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^2.1.6"
+  },
+  "type": "git",
+  "license": "MIT"
+}

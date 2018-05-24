@@ -1,0 +1,17 @@
+<div>
+  <h3>My Clock Component</h3>
+<p>
+  clock counter = {{counter}}
+</p>
+  <button (click)="run()">Clock Increment</button>
+
+<p>
+  New Contact
+  <input #newData>
+  <button (click)="addData(newData.value)">Add data</button>
+</p>
+
+
+<app-clock2 [data]="data"></app-clock2>
+<!--<app-clock2 [observedData]="data"></app-clock2>-->
+</div>

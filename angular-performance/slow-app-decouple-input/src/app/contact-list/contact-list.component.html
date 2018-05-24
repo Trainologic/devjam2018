@@ -1,0 +1,11 @@
+<app-contact-name (addNewContact)="add.next($event)"></app-contact-name>
+
+<hr>
+
+  <ul>
+  <li *ngFor="let contact of contacts">
+    <i title="Delete Contact" class="fa fa-user-times" (click)="remove.emit(contact)"></i>
+    <span>{{contact.name}}</span>
+    <span>(Score  = {{ getScore(contact) }})</span>
+  </li>
+</ul>
