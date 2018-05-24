@@ -1,0 +1,10 @@
+{
+  "name": "dummy-loader",
+  "version": "0.0.1",
+  "description": "dummy loader to check HappyPack",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}

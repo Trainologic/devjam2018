@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "rollup": "^0.55.0",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack -d --progress --colors"
+  }
+}
