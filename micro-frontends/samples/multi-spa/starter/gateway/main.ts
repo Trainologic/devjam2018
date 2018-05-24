@@ -4,6 +4,12 @@ import * as request from "request";
 const app = express();
 const port = 8080;
 
+app.get("/contact/new", function(req, res) {
+    console.log("/contact/new", req.url);
+
+    request.get('http://localhost:3001/index.html').pipe(res);
+});
+
 app.get("/ng5/:tail*", function(req, res) {
     console.log("/ng5", req.params.tail);
 

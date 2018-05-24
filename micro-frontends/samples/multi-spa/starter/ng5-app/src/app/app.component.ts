@@ -14,6 +14,16 @@ export class AppComponent {
   }
 
   add() {
+    if(!this.name) {
+      return;
+    }
+
+    const contact: Contact = {
+      id: -1,
+      name: this.name,
+    };
+
+    this.appService.addContact(contact);
   }
 
   onKeyDown($event) {

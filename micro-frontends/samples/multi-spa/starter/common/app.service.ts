@@ -14,11 +14,11 @@ export class AppService {
 
   addContact(contact: Contact) {
     this.appStore.contacts.push(contact);
+
     this.appStore.apps.ng5 = null;
+    this.onStoreChanged();
 
-    // this.onStoreChanged();
-
-    window.close();
+      window.close();
   }
 
   private onStoreChanged() {
