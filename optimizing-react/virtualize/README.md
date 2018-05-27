@@ -22,7 +22,7 @@ Renders a single list item
 ## Phase 01: PureComponent
 - Open the app
 - Try to add 1 item, see it takes a long time
-- Open devtools and analise performance - note that all `ListItem`s get rendered for no reason
+- Open devtools and analyze performance - note that all `ListItem`s get rendered for no reason
 - Change `ListItem` to extend `PureComponent`
 - See that performance improved
 - See that only the new `ListItem` gets rendered
@@ -50,3 +50,5 @@ Renders a single list item
       }
     }
     ```
+- note bundle size smaller
+- note performance better (even not using virtualization)

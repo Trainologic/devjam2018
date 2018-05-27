@@ -9,7 +9,7 @@ This is a simple React app created for demonstating various performance related 
 ## Demo flow
 - Build the app
 - Note that the build time is very long
-- install and configure speed-measure-webpack-plugin
+- Install and configure speed-measure-webpack-plugin
     `npm i speed-measure-webpack-plugin`
     ```javascript
        const SpeedMeasurePlugin = require("speed-measure-webpack-plugin");

@@ -8,7 +8,7 @@ This repo demonstrates code lazy loading
 Basic app with a router
 
 ### `DynamicImport`
-A component that manages async loading of components
+A component that manages async loading of other components
 
 ## Start the app
 - `npm install`
@@ -19,6 +19,6 @@ A component that manages async loading of components
 - Note a single bundle is created
 - Note a single bundle loaded
 - Enable lazy loading in code
-- Note multile bundles created
+- Note multiple bundles created
 - Note bundles are loaded when required
 - Optional: throttle network to note 'loading' indicator
